@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d014yejvjvqx3"
-path="res://.godot/imported/rock_packed.png-9ca7eb6bb7a0b4591c0626639e2b1dd4.ctex"
+uid="uid://c8p3g2pu561yf"
+path="res://.godot/imported/enemyRed1.png-308ae58c637b703d89b5b1d824434a0b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://rock_packed.png"
-dest_files=["res://.godot/imported/rock_packed.png-9ca7eb6bb7a0b4591c0626639e2b1dd4.ctex"]
+source_file="res://Assets/enemyRed1.png"
+dest_files=["res://.godot/imported/enemyRed1.png-308ae58c637b703d89b5b1d824434a0b.ctex"]
 
 [params]
 

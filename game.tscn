@@ -1,7 +1,9 @@
-[gd_scene load_steps=14 format=4 uid="uid://bh07goykh1vot"]
+[gd_scene load_steps=16 format=4 uid="uid://bh07goykh1vot"]
 
-[ext_resource type="Texture2D" uid="uid://d014yejvjvqx3" path="res://rock_packed.png" id="1_e2o6t"]
+[ext_resource type="Texture2D" uid="uid://d014yejvjvqx3" path="res://Assets/rock_packed.png" id="1_e2o6t"]
+[ext_resource type="Script" uid="uid://durqenji34hqt" path="res://game.gd" id="1_fc0e3"]
 [ext_resource type="StyleBox" uid="uid://c7qk3ekfy0qlp" path="res://addons/panel.tres" id="2_feb5d"]
+[ext_resource type="PackedScene" uid="uid://d2eej7orso6na" path="res://explore.tscn" id="3_feb5d"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fc0e3"]
 texture = ExtResource("1_e2o6t")
@@ -144,6 +146,11 @@ corner_radius_bottom_left = 64
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eow3j"]
 bg_color = Color(0.0106354, 0.753906, 0.0563473, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
 corner_radius_top_left = 64
 corner_radius_top_right = 64
 corner_radius_bottom_right = 64
@@ -153,13 +160,14 @@ corner_radius_bottom_left = 64
 font_size = 49
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_fc0e3")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_left = -266.0
 offset_top = -367.0
 offset_right = 1932.0
 offset_bottom = 1817.0
-color = Color(0.57195, 0.403452, 0.652344, 1)
+color = Color(0.703125, 0.159052, 0.174792, 1)
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 texture_filter = 1
@@ -353,21 +361,22 @@ scale = Vector2(3.02652, 3.10156)
 color = Color(0.601563, 0.601563, 0.601563, 1)
 polygon = PackedVector2Array(27, 14, 33, 14, 34.7297, 18.1379, 33, 22, 29.651, 22, 27, 22, 25, 18)
 
-[node name="ProgressBar" type="ProgressBar" parent="Power"]
+[node name="Fuel" type="ProgressBar" parent="Power"]
+unique_name_in_owner = true
 layout_mode = 0
 offset_left = 117.625
 offset_top = 614.151
 offset_right = 1028.63
 offset_bottom = 676.151
-rotation = -1.57141
+rotation = -1.57079
 scale = Vector2(0.523719, 1.82666)
 theme_override_styles/background = SubResource("StyleBoxFlat_ryrav")
 theme_override_styles/fill = SubResource("StyleBoxFlat_eow3j")
-value = 59.04
+value = 42.0
 rounded = true
 show_percentage = false
 
-[node name="ProgressBar2" type="ProgressBar" parent="Power"]
+[node name="Heat" type="ProgressBar" parent="Power"]
 layout_mode = 0
 offset_left = 373.216
 offset_top = 614.227
@@ -383,11 +392,11 @@ show_percentage = false
 
 [node name="Label" type="Label" parent="Power"]
 layout_mode = 0
-offset_left = 68.6511
-offset_top = 45.576
-offset_right = 546.651
-offset_bottom = 119.576
-text = "Fuel      Heat"
+offset_left = 63.6584
+offset_top = 44.6268
+offset_right = 541.658
+offset_bottom = 118.627
+text = "Fuel           Heat"
 label_settings = SubResource("LabelSettings_7jktm")
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -487,10 +496,11 @@ color = Color(0.601563, 0.601563, 0.601563, 1)
 polygon = PackedVector2Array(27, 14, 33, 14, 34.7297, 18.1379, 33, 22, 29.651, 22, 27, 22, 25, 18)
 
 [node name="Star_energy" type="Panel" parent="."]
-offset_left = 1074.0
+offset_left = 1063.0
 offset_top = 1108.0
-offset_right = 1520.0
-offset_bottom = 1639.0
+offset_right = 1509.0
+offset_bottom = 1652.0
+scale = Vector2(1.04303, 0.991305)
 theme_override_styles/panel = ExtResource("2_feb5d")
 
 [node name="Polygon2D" type="Polygon2D" parent="Star_energy"]
@@ -500,13 +510,13 @@ color = Color(0.601563, 0.601563, 0.601563, 1)
 polygon = PackedVector2Array(27, 14, 33, 14, 34.7297, 18.1379, 33, 22, 29.651, 22, 27, 22, 25, 18)
 
 [node name="Polygon2D2" type="Polygon2D" parent="Star_energy"]
-position = Vector2(-62, 444)
+position = Vector2(-61, 457)
 scale = Vector2(3.02652, 3.10156)
 color = Color(0.601563, 0.601563, 0.601563, 1)
 polygon = PackedVector2Array(27, 14, 33, 14, 34.7297, 18.1379, 33, 22, 29.651, 22, 27, 22, 25, 18)
 
 [node name="Polygon2D3" type="Polygon2D" parent="Star_energy"]
-position = Vector2(326, 443)
+position = Vector2(325, 453)
 scale = Vector2(3.02652, 3.10156)
 color = Color(0.601563, 0.601563, 0.601563, 1)
 polygon = PackedVector2Array(27, 14, 33, 14, 34.7297, 18.1379, 33, 22, 29.651, 22, 27, 22, 25, 18)
@@ -521,3 +531,6 @@ polygon = PackedVector2Array(27, 14, 33, 14, 34.7297, 18.1379, 33, 22, 29.651, 2
 position = Vector2(805, 736)
 scale = Vector2(4.20414, -0.309505)
 zoom = Vector2(0.43, 0.42)
+
+[node name="explore" parent="." instance=ExtResource("3_feb5d")]
+position = Vector2(1298, 110)

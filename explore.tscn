@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2eej7orso6na"]
+
+[ext_resource type="PackedScene" uid="uid://d2tlkih6iy6r" path="res://player.tscn" id="1_se1is"]
+
+[node name="explore" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -193.0
+offset_top = -191.0
+offset_right = 181.0
+offset_bottom = 181.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.400383, 0.203892, 0.402344, 1)
+
+[node name="Player" parent="." instance=ExtResource("1_se1is")]
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+zoom = Vector2(1.58, 1.58)
