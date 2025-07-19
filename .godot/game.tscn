@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bh07goykh1vot"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 363.0
+offset_top = 104.0
+offset_right = 1513.0
+offset_bottom = 750.0
+color = Color(0.34689, 0.162241, 0.359375, 1)
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2(722, 230)
+polygon = PackedVector2Array(-1, 4, 175, 88, 100, 131)
