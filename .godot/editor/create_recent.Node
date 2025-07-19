@@ -1,0 +1,15 @@
+CollisionShape2D
+Sprite2D
+CharacterBody2D
+ColorRect
+Camera2D
+Label
+ShapeCast2D
+Polygon2D
+Panel
+HBoxContainer
+ProgressBar
+Container
+Button
+TileMapLayer
+Camera3D

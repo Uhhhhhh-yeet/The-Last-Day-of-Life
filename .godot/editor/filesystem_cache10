@@ -1,0 +1,19 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1752948568
+game.tscn::PackedScene/PackedScene::2931306464409741635::1752948125::0::1::::<><><>0<>0<><>::uid://d014yejvjvqx3::::res://Assets/rock_packed.png<>uid://c7qk3ekfy0qlp::::res://addons/panel.tres
+README.md::TextFile/TextFile::-1::1752941042::0::1::::<><><>0<>0<><>::
+explore.tscn::PackedScene::9062878983610135782::1752948568::0::1::::<><><>0<>0<><>::
+::res://addons/::1752941042
+panel.tres::StyleBoxFlat/StyleBoxFlat::7052571805826891949::1752941042::0::1::::<><><>0<>0<><>::
+::res://addons/godot-git-plugin/::1752941042
+git_plugin.gdextension::GDExtension/GDExtension::1555703542643967252::1752941042::0::1::::<><><>0<>0<><>::
+plugin.cfg::TextFile/TextFile::-1::1752941042::0::1::::<><><>0<>0<><>::
+THIRDPARTY.md::TextFile/TextFile::-1::1752941042::0::1::::<><><>0<>0<><>::
+::res://addons/godot-git-plugin/linux/::1752941042
+::res://addons/godot-git-plugin/macos/::1752941042
+::res://addons/godot-git-plugin/win64/::1752947535
+::res://Assets/::1752948664
+button_round_border.png::CompressedTexture2D/CompressedTexture2D::6454566270932397389::1752948107::1752948127::1::::<><><>0<>0<>fd349f52a2cd0137d8afc09919cbc7fd<>res://.godot/imported/button_round_border.png-59b9918be38dd9557fc98570a65bff45.ctex::
+enemyRed1.png::CompressedTexture2D::7121751106565625781::1752948664::1752948664::1::::<><><>0<>0<>6bf438e92c1982d4a35c83b463463932<>res://.godot/imported/enemyRed1.png-308ae58c637b703d89b5b1d824434a0b.ctex::
+Kenney Future.ttf::FontFile::6640258462537463977::1752941042::1752948128::1::::<><><>0<>0<>366f070e9172a1ad61cd0185e10bbcbb<>res://.godot/imported/Kenney Future.ttf-4912730d03d7adae0540e420dfc2ae52.fontdata::
+rock_packed.png::CompressedTexture2D/CompressedTexture2D::8969460840443267842::1752941042::1752948125::1::::<><><>0<>0<>e19ddd9cac56badd9e3e3f9fc04ab1ae<>res://.godot/imported/rock_packed.png-d38843694d4d0492937026d743a6b71a.ctex::
