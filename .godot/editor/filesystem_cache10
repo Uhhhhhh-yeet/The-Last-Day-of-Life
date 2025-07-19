@@ -1,20 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1752938744
-bar_round_gloss_large_square.png::CompressedTexture2D/CompressedTexture2D::2518701304074619955::1752924060::1752924075::1::::<><><>0<>0<>04db89bb631f05ae3e73255b8dddb8a1<>res://.godot/imported/bar_round_gloss_large_square.png-f850d971c72947c5d385b8e17f39b054.ctex::
-bar_round_small.png::CompressedTexture2D/CompressedTexture2D::6164506749395562774::1752935582::1752935583::1::::<><><>0<>0<>f0a6f93923f0d4a7a2fedee12b5c07cc<>res://.godot/imported/bar_round_small.png-afcfa2fc18844b5f036f1d10905e31e9.ctex::
-game.gd::GDScript/GDScript::2407759664189460298::1752935885::0::1::::<>Node2D<><>0<>0<><>::
-game.tscn::PackedScene/PackedScene::2931306464409741635::1752935888::0::1::::<><><>0<>0<><>::uid://cfeqff45j845n::::res://rock_packed.png<>uid://baklpkcrxm7cw::::res://game.gd<>uid://58uapduq3o2r::::res://Kenney Future.ttf<>uid://c7qk3ekfy0qlp::::res://addons/panel.tres<>uid://bb5cv3yqgbuhn::::res://bar_round_gloss_large_square.png
-icon.svg::CompressedTexture2D/CompressedTexture2D::283284992219982232::1752907590::1752907845::1::::<><><>0<>0<>0f16680c0413fede2204079d41420159<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-Kenney Future.ttf::FontFile/FontFile::2175004908296146303::1752924060::1752924075::1::::<><><>0<>0<>30534bc500e8f1f1e8ae41672fb595b3<>res://.godot/imported/Kenney Future.ttf-fd1f813a9c064cd591bf3582d7978539.fontdata::
-README.md::TextFile::-1::1752938586::0::1::::<><><>0<>0<><>::
-rock.png::CompressedTexture2D/CompressedTexture2D::4868843171684864383::1752909289::1752909492::1::::<><><>0<>0<>30ca65fb6f8838f801216d3dfa5a514b<>res://.godot/imported/rock.png-2fd843802c09e25179696ea826da5ac7.ctex::
-rock_packed.png::CompressedTexture2D/CompressedTexture2D::5133023806238891157::1752909244::1752909244::1::::<><><>0<>0<>9a42984f8ead55dcf30f3342f880363a<>res://.godot/imported/rock_packed.png-9ca7eb6bb7a0b4591c0626639e2b1dd4.ctex::
-::res://addons/::1752924104
-panel.tres::StyleBoxFlat/StyleBoxFlat::7052571805826891949::1752924104::0::1::::<><><>0<>0<><>::
-::res://addons/godot-git-plugin/::1752907608
-git_plugin.gdextension::GDExtension/GDExtension::4793718442462561660::1752907585::0::1::::<><><>0<>0<><>::
-plugin.cfg::TextFile/TextFile::-1::1752907588::0::1::::<><><>0<>0<><>::
-THIRDPARTY.md::TextFile/TextFile::-1::1752907584::0::1::::<><><>0<>0<><>::
-::res://addons/godot-git-plugin/linux/::1752907587
-::res://addons/godot-git-plugin/macos/::1752907608
-::res://addons/godot-git-plugin/win64/::1752938738
+::res://::1752939619
+game.tscn::PackedScene/PackedScene::2931306464409741635::1752939466::0::1::::<><><>0<>0<><>::
+Kenney Future.ttf::FontFile/FontFile::8367854235033268675::1752939544::1752939544::1::::<><><>0<>0<>da952f4b58b46fa5a459ffed8867e1a4<>res://.godot/imported/Kenney Future.ttf-fd1f813a9c064cd591bf3582d7978539.fontdata::
+README.md::TextFile/TextFile::-1::1752938756::0::1::::<><><>0<>0<><>::
+rock_packed.png::CompressedTexture2D::8969460840443267842::1752939619::1752939620::1::::<><><>0<>0<>14357261370065bf73d9df8cd1114769<>res://.godot/imported/rock_packed.png-9ca7eb6bb7a0b4591c0626639e2b1dd4.ctex::
+::res://addons/::1752939549
+panel.tres::StyleBoxFlat::7052571805826891949::1752939544::0::1::::<><><>0<>0<><>::
+::res://addons/godot-git-plugin/::1752939364
+git_plugin.gdextension::GDExtension/GDExtension::1555703542643967252::1752939363::0::1::::<><><>0<>0<><>::
+plugin.cfg::TextFile/TextFile::-1::1752939364::0::1::::<><><>0<>0<><>::
+THIRDPARTY.md::TextFile/TextFile::-1::1752939364::0::1::::<><><>0<>0<><>::
+::res://addons/godot-git-plugin/linux/::1752939363
+::res://addons/godot-git-plugin/macos/::1752939364
+::res://addons/godot-git-plugin/win64/::1752939364
