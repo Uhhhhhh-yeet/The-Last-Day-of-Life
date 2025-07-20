@@ -167,7 +167,7 @@ offset_left = -266.0
 offset_top = -367.0
 offset_right = 1932.0
 offset_bottom = 1817.0
-color = Color(0.703125, 0.159052, 0.174792, 1)
+color = Color(0.511719, 0.133361, 0.457707, 1)
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 texture_filter = 1
